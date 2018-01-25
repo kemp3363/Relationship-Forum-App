@@ -1,1 +1,209 @@
+/*
 
+.img {
+    
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.gottman.com/wp-content/uploads/2016/05/Debunking-12-Myths-About-Relationships_HI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+*/
+
+body {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url( 'img_final.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: 'Shadows Into Light', cursive;
+/*    font-family: 'Cutive Mono', monospace;*/
+    color: white;
+/*    color: black;*/
+    font-size: 30px;   
+    
+}
+
+.form {
+    
+/*    background-color: rgba(255, 255, 255, .30);*/
+/*    background-color: white;*/
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+/*    bottom: 0;*/
+    right: 5%;
+/*    filter: opacity(.3);*/
+/*    background-blend-mode: darken;*/
+/*    background: opacity(.3);*/
+    
+}
+
+h1 {
+    
+     position: absolute;
+    top: 0%;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+/*    left:: 5%;*/
+    width: 250px;
+    height: 250px;
+    width: 100%;
+    
+    
+}
+.header {
+    
+     position: absolute;
+    top: 0%;
+    background-color: black;
+/*    background-color: blue;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+/*    width: 100%;*/
+    
+    
+}
+img{
+    filter: brightness(50%);
+}
+
+#usrnm {
+    
+    width: 50%;
+    height: 25px;
+    
+    
+}
+#email {
+    
+    width: 50%;
+    height: 25px;
+    
+}
+#pass {
+ 
+    width: 50%;
+    height: 25px;
+    
+}
+
+#sign_btn {
+    
+    width: 75px;
+    height: 55px;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border-radius: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    
+    
+}
+
+#sign_btn:hover{
+    
+    filter: brightness(100%);
+    
+}
+
+
+#login_username {
+    
+/*    position: absolute;*/
+    width: 50%;
+    height: 15px;
+    width: 150px;
+/*    top: 10%;*/
+    
+    
+}
+#login_pass {
+    
+    width: 50%;
+    height: 15px;
+    width: 150px;
+    
+    
+}
+
+#login {
+    
+    position: absolute;
+    top: 2%;
+    right: 10%;
+/*    left: 0%;*/
+    
+    
+}
+
+h2 {
+    
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    
+}
+
+#about {
+    
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    width: 450px;
+    height: 250px;
+/*    background-color: aliceblue;*/
+     
+}
+
+#title {
+    
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    
+}
+
+
+#login_btn {
+    
+    position: absolute;
+    top: 9.75%;
+    right: -13%;
+    width: 65px;
+    height: 30px;
+    border-radius: 25px;
+    color: white;
+        font-family: 'Shadows Into Light', cursive;
+    background: transparent; 
+}
+
+
+h3 {
+    
+        font-family: 'Shadows Into Light', cursive;
+/*    text-align: center;*/
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    
+    
+}
