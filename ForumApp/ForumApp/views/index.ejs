@@ -2,18 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Forum</title>
+      
+       <title>Forum</title>
     <!-- <link rel="stylesheet" href="CWF.css"> -->
+            
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+      
+      <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+      
   </head>
-  <body>
+  <body bgcolor="black">
+      
+      <div class="header"> </div>
 
-    <form>
-    Username:  <input type="text" placeholder="Enter username" name="username"/><p>
-    Email  <input type="email"placeholder="Enter E-mail" name="email"/><p>
-    Password  <input type="password" placeholder="Enter password" name="pass"/><p>
+      <div class="form">
+          
+    <form action="/signup" method="post">
+    Username: <br>  <input id="usrnm" type="text" placeholder="Enter username" name="username"/><p>
+    
+    Email: <br> <input id="email" type="email"placeholder="Enter E-mail" name="email"/><p>
+    Password: <br>  <input id="pass" type="password" placeholder="Enter password" name="pass"/><p>
       <!-- <input type="button" name="sub_btn"/> -->
-    <button name="sub_btn">Submit</button>
+    <button id="sign_btn" name="sub_btn">Sign Up</button>
+        </p>
+          </form>
+          
+      </div>
+          
+<!--  -------------------------------  -->
+        <div id="login"> 
+          
+<!--          <form>-->
+          
+            Username: <input id="login_username" type="text" placeholder="Enter Username" name="usrnm"/>
+          
+          Password: <input id="login_pass" type="password"  placeholder="Enter password" name="login_pass"/>
+         
+                    <input id="login_btn" type="button"  value="Log In" name="login_btn"/>
+            
+            <h3> Create New Account</h3>
+          
+          
+<!--          </form>-->
+            
+            </div>
+          
+          
+          <h2> Name of Website </h2>
+          
+      
+      <div class="img">
 
+          </div>
+      
+      
+      
+      
+           <h2 id="title"> Lorem Ipsum</h2> 
+      <p id="about"> dolor sit amet, consectetur adipiscing elit. Fusce consequat ex id turpis euismod, pharetra faucibus felis efficitur. Pellentesque vel fringilla libero, in viverra risus. Quisque et ante massa. 
+      
+      
+      
+      </p>
 
 
 
@@ -21,3 +73,44 @@
 
   </body>
   </html>
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forum</title>
+      
+       <link href="/public/style.css" rel="stylesheet" type="text/css">
+      
+
+  </head>
+  <body>
+
+
+
+
+
+    <form action="/signup" method="post" autocomplete="off" autofill="off">
+
+      <caption>Sign Up</caption><p>
+    Username:  <input autofill="off" autocomplete="off" type="text" placeholder="Enter username" name="username" required /><p>
+    Email  <input type="email"placeholder="Enter E-mail" name="email" /><p>
+    Password  <input type="password" placeholder="Enter password" name="pass" required/><p>
+    <button name="sub_btn">Sign Up!</button>
+  </form>
+
+  <p><br>
+  <form action="" method="post">
+    <caption>Login</caption><p>
+    Username:  <input type="text" placeholder="Enter username" name="username"/><p>
+    Password  <input type="password" placeholder="Enter password" name="pass"/><p>
+    <button name="sub_btn">Login!</button>
+  </form>
+
+
+
+
+
+  </body>
+  </html>
+-->
