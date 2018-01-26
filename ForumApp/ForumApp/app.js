@@ -33,6 +33,7 @@ function listening() {
 }
 
 app.use(express.static("views"));
+app.use('/public', express.static('public'));
 
 app.use(function(req, res, next){
     if (typeof(req.session.msgList) == 'undefined') {
